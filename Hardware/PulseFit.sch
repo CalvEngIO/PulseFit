@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.1">
+<eagle version="8.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6651,9 +6651,9 @@ Attribution-NonCommercial-ShareAlike</text>
 <pinref part="AMP" gate="G$1" pin="OUT"/>
 </segment>
 <segment>
-<pinref part="BREAKOUT" gate="G$1" pin="3"/>
-<wire x1="236.22" y1="22.86" x2="238.76" y2="22.86" width="0.1524" layer="91"/>
-<label x="238.76" y="22.86" size="1.27" layer="95" xref="yes"/>
+<pinref part="BREAKOUT" gate="G$1" pin="2"/>
+<wire x1="236.22" y1="20.32" x2="238.76" y2="20.32" width="0.1524" layer="91"/>
+<label x="238.76" y="20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -6687,9 +6687,9 @@ Attribution-NonCommercial-ShareAlike</text>
 <pinref part="AMP" gate="G$4" pin="-IN"/>
 </segment>
 <segment>
-<pinref part="BREAKOUT" gate="G$1" pin="2"/>
-<wire x1="236.22" y1="20.32" x2="238.76" y2="20.32" width="0.1524" layer="91"/>
-<label x="238.76" y="20.32" size="1.27" layer="95" xref="yes"/>
+<pinref part="BREAKOUT" gate="G$1" pin="3"/>
+<wire x1="236.22" y1="22.86" x2="238.76" y2="22.86" width="0.1524" layer="91"/>
+<label x="238.76" y="22.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="COMP" class="0">
