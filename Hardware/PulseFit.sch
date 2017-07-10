@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6245,7 +6245,7 @@ Diode with low voltage drop</description>
 <part name="R1" library="CalvEngIO-Passives" deviceset="RESISTOR" device="0402" value="205"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C2" library="CalvEngIO-Passives" deviceset="CAPACITOR" device="0402" value="100n"/>
+<part name="C2" library="CalvEngIO-Passives" deviceset="CAPACITOR" device="0402" value="1u"/>
 <part name="BREAKOUT" library="CalvEngIO-Connectors" deviceset="CONN_05" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LED16" library="SparkFun-LED" deviceset="LED" device="5MM"/>
@@ -6287,7 +6287,7 @@ Diode with low voltage drop</description>
 <part name="R6" library="CalvEngIO-Passives" deviceset="RESISTOR" device="0402" value="12k"/>
 <part name="GND24" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND25" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C1" library="CalvEngIO-Passives" deviceset="CAPACITOR" device="0402" value="100n"/>
+<part name="C1" library="CalvEngIO-Passives" deviceset="CAPACITOR" device="0402" value="1u"/>
 <part name="R5" library="CalvEngIO-Passives" deviceset="RESISTOR" device="0402" value="10k"/>
 <part name="R4" library="CalvEngIO-Passives" deviceset="RESISTOR" device="0402" value="10k"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -6295,8 +6295,6 @@ Diode with low voltage drop</description>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="D1" library="CalvEngIO-DiscreteSemi" deviceset="SCHOTTKY" device="-SOD-123FL"/>
 <part name="AMP" library="CalvEngIO-AnalogIC" deviceset="OP-QUAD" device="-TSSOP14" value="OP-QUAD-TSSOP14"/>
-<part name="C3" library="CalvEngIO-Passives" deviceset="CAPACITOR" device="0603" value="2.2u"/>
-<part name="C4" library="CalvEngIO-Passives" deviceset="CAPACITOR" device="0603" value="2.2u"/>
 <part name="U$6" library="CalvEngIO-Power" deviceset="AP2210-ADJ" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="CalvEngIO-Symbols" deviceset="3.3V" device=""/>
@@ -6443,8 +6441,6 @@ Attribution-NonCommercial-ShareAlike</text>
 <instance part="AMP" gate="G$3" x="152.4" y="78.74"/>
 <instance part="AMP" gate="G$4" x="198.12" y="96.52"/>
 <instance part="AMP" gate="G$5" x="81.28" y="17.78"/>
-<instance part="C3" gate="G$1" x="66.04" y="17.78" rot="R180"/>
-<instance part="C4" gate="G$1" x="20.32" y="83.82" rot="R180"/>
 <instance part="U$6" gate="G$1" x="180.34" y="22.86"/>
 <instance part="GND3" gate="1" x="160.02" y="12.7"/>
 <instance part="SUPPLY1" gate="G$1" x="203.2" y="27.94"/>
@@ -6482,10 +6478,6 @@ Attribution-NonCommercial-ShareAlike</text>
 <wire x1="76.2" y1="7.62" x2="81.28" y2="7.62" width="0.1524" layer="91"/>
 <junction x="81.28" y="7.62"/>
 <pinref part="AMP" gate="G$5" pin="V-"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="12.7" x2="66.04" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="7.62" x2="76.2" y2="7.62" width="0.1524" layer="91"/>
-<junction x="76.2" y="7.62"/>
 </segment>
 <segment>
 <pinref part="BREAKOUT" gate="G$1" pin="4"/>
@@ -6586,10 +6578,6 @@ Attribution-NonCommercial-ShareAlike</text>
 <wire x1="30.48" y1="78.74" x2="30.48" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="35.56" y2="76.2" width="0.1524" layer="91"/>
 <junction x="35.56" y="76.2"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="78.74" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="76.2" x2="30.48" y2="76.2" width="0.1524" layer="91"/>
-<junction x="30.48" y="76.2"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
@@ -6928,10 +6916,6 @@ Attribution-NonCommercial-ShareAlike</text>
 <wire x1="76.2" y1="27.94" x2="81.28" y2="27.94" width="0.1524" layer="91"/>
 <junction x="81.28" y="27.94"/>
 <pinref part="AMP" gate="G$5" pin="V+"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="20.32" x2="66.04" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="27.94" x2="76.2" y2="27.94" width="0.1524" layer="91"/>
-<junction x="76.2" y="27.94"/>
 <pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -6953,10 +6937,6 @@ Attribution-NonCommercial-ShareAlike</text>
 <wire x1="30.48" y1="86.36" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="88.9" x2="35.56" y2="88.9" width="0.1524" layer="91"/>
 <junction x="35.56" y="88.9"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="86.36" x2="20.32" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="88.9" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
-<junction x="30.48" y="88.9"/>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
