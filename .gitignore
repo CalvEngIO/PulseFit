@@ -4,6 +4,8 @@ Hardware/*
 !*.sch
 !*.brd
 !*.zip
+!*RevF
+!*RevF-Bottom
 
 # Ignore Mac DS_Store files in all directories
 .DS_Store
